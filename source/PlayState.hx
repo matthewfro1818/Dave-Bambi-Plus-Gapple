@@ -2904,7 +2904,7 @@ class PlayState extends MusicBeatState
 				swagger = new Character(-300, 100 - 900 - 400, 'bambi-piss-3d');
 				var diff:String = "";
 				switch (storyDifficulty) {
-			    case 0:
+			        case 0:
 					diff = LanguageManager.getTextString('freeplay_extrakeys');
 				default:
 					diff = LanguageManager.getTextString('freeplay_hard');
